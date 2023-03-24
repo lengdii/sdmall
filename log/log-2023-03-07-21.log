@@ -1,0 +1,56 @@
+2023-03-07-21:03:00.014 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60011
+2023-03-07-21:05:00.017 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60010
+2023-03-07-21:07:00.014 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60009
+2023-03-07-21:12:00.008 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60004
+2023-03-07-21:15:00.015 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60010
+2023-03-07-21:19:00.014 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60009
+2023-03-07-21:22:00.015 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60010
+2023-03-07-21:25:00.015 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60008
+2023-03-07-21:27:00.008 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60001
+2023-03-07-21:30:00.013 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60006
+2023-03-07-21:33:00.015 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60010
+2023-03-07-21:39:00.005 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60000
+2023-03-07-21:41:00.007 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60003
+2023-03-07-21:45:00.006 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60002
+2023-03-07-21:45:04.524 INFO [SpringApplicationShutdownHook]-org.quartz.core.QuartzScheduler:585>>Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-03-07-21:45:04.676 INFO [SpringApplicationShutdownHook]-org.springframework.scheduling.quartz.SchedulerFactoryBean:847>>Shutting down Quartz Scheduler
+2023-03-07-21:45:04.676 INFO [SpringApplicationShutdownHook]-org.quartz.core.QuartzScheduler:666>>Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-03-07-21:45:04.677 INFO [SpringApplicationShutdownHook]-org.quartz.core.QuartzScheduler:585>>Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-03-07-21:45:04.677 INFO [SpringApplicationShutdownHook]-org.quartz.core.QuartzScheduler:740>>Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-03-07-21:45:06.706 ERROR [redisson-netty-4-22]-io.netty.util.concurrent.DefaultPromise:843>>Failed to submit a listener notification task. Event loop shut down?
+java.util.concurrent.RejectedExecutionException: event executor terminated
+	at io.netty.util.concurrent.SingleThreadEventExecutor.reject(SingleThreadEventExecutor.java:934)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.offerTask(SingleThreadEventExecutor.java:351)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.addTask(SingleThreadEventExecutor.java:344)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:836)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute0(SingleThreadEventExecutor.java:827)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:817)
+	at io.netty.util.concurrent.DefaultPromise.safeExecute(DefaultPromise.java:841)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:499)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605)
+	at io.netty.util.concurrent.DefaultPromise.setSuccess(DefaultPromise.java:96)
+	at io.netty.channel.group.DefaultChannelGroupFuture.setSuccess0(DefaultChannelGroupFuture.java:200)
+	at io.netty.channel.group.DefaultChannelGroupFuture.access$400(DefaultChannelGroupFuture.java:41)
+	at io.netty.channel.group.DefaultChannelGroupFuture$1.operationComplete(DefaultChannelGroupFuture.java:75)
+	at io.netty.channel.group.DefaultChannelGroupFuture$1.operationComplete(DefaultChannelGroupFuture.java:48)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605)
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104)
+	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.netty.channel.AbstractChannel$CloseFuture.setClosed(AbstractChannel.java:1164)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:755)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:731)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.netty.channel.nio.NioEventLoop.closeAll(NioEventLoop.java:838)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:595)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2023-03-07-21:45:06.734 INFO [SpringApplicationShutdownHook]-com.alibaba.druid.pool.DruidDataSource:2071>>{dataSource-1} closing ...
+2023-03-07-21:45:06.734 INFO [SpringApplicationShutdownHook]-com.alibaba.druid.pool.DruidDataSource:2144>>{dataSource-1} closed

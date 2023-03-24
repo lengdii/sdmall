@@ -1,0 +1,2 @@
+2023-03-07-00:00:00.018 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60001
+2023-03-07-00:02:00.024 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60009

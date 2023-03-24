@@ -1,0 +1,8 @@
+2023-03-05-00:00:00.016 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60015
+2023-03-05-00:01:42.898 INFO [SpringApplicationShutdownHook]-org.quartz.core.QuartzScheduler:585>>Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-03-05-00:01:43.114 INFO [SpringApplicationShutdownHook]-org.springframework.scheduling.quartz.SchedulerFactoryBean:847>>Shutting down Quartz Scheduler
+2023-03-05-00:01:43.114 INFO [SpringApplicationShutdownHook]-org.quartz.core.QuartzScheduler:666>>Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-03-05-00:01:43.115 INFO [SpringApplicationShutdownHook]-org.quartz.core.QuartzScheduler:585>>Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-03-05-00:01:43.115 INFO [SpringApplicationShutdownHook]-org.quartz.core.QuartzScheduler:740>>Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-03-05-00:01:43.120 INFO [SpringApplicationShutdownHook]-com.alibaba.druid.pool.DruidDataSource:2071>>{dataSource-1} closing ...
+2023-03-05-00:01:43.122 INFO [SpringApplicationShutdownHook]-com.alibaba.druid.pool.DruidDataSource:2144>>{dataSource-1} closed

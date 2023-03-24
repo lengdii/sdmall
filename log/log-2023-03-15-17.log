@@ -1,0 +1,128 @@
+2023-03-15-17:02:00.011 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60007
+2023-03-15-17:02:00.015 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 309141
+2023-03-15-17:02:00.016 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 318088
+2023-03-15-17:03:38.049 ERROR [http-nio-8080-exec-1]-org.apache.juli.logging.DirectJDKLog:175>>Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisSystemException: Redis exception; nested exception is io.lettuce.core.RedisException: java.io.IOException: 远程主机强迫关闭了一个现有的连接。] with root cause
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2023-03-15-17:03:38.075 INFO [lettuce-eventExecutorLoop-1-8]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was /8.130.77.18:7001
+2023-03-15-17:03:38.202 INFO [lettuce-nioEventLoop-7-2]-io.lettuce.core.protocol.ReconnectionHandler:174>>Reconnected to 8.130.77.18:7001
+2023-03-15-17:07:00.006 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60003
+2023-03-15-17:07:00.008 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 198953
+2023-03-15-17:12:16.745 ERROR [http-nio-8080-exec-1]-org.apache.juli.logging.DirectJDKLog:175>>Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisSystemException: Redis exception; nested exception is io.lettuce.core.RedisException: java.io.IOException: 远程主机强迫关闭了一个现有的连接。] with root cause
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2023-03-15-17:12:16.795 INFO [lettuce-eventExecutorLoop-1-6]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was /8.130.77.18:7001
+2023-03-15-17:12:17.114 INFO [lettuce-nioEventLoop-7-3]-io.lettuce.core.protocol.ReconnectionHandler:174>>Reconnected to 8.130.77.18:7001
+2023-03-15-17:15:00.011 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60002
+2023-03-15-17:15:00.012 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 158145
+2023-03-15-17:15:00.014 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 158150
+2023-03-15-17:17:00.016 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60002
+2023-03-15-17:20:00.011 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60003
+2023-03-15-17:22:00.009 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60000
+2023-03-15-17:26:00.011 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60004
+2023-03-15-17:28:00.008 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60004
+2023-03-15-17:29:23.864 INFO [lettuce-eventExecutorLoop-1-4]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was /8.130.77.18:7001
+2023-03-15-17:29:24.032 INFO [lettuce-nioEventLoop-7-4]-io.lettuce.core.protocol.ReconnectionHandler:174>>Reconnected to 8.130.77.18:7001
+2023-03-15-17:30:32.988 WARN [http-nio-8080-exec-4]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 76833
+2023-03-15-17:33:00.017 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60008
+2023-03-15-17:33:00.018 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 123241
+2023-03-15-17:33:00.019 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 144925
+2023-03-15-17:35:00.010 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60004
+2023-03-15-17:36:16.086 ERROR [http-nio-8080-exec-6]-org.apache.juli.logging.DirectJDKLog:175>>Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.data.redis.RedisSystemException: Redis exception; nested exception is io.lettuce.core.RedisException: java.io.IOException: 远程主机强迫关闭了一个现有的连接。] with root cause
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2023-03-15-17:36:16.164 INFO [lettuce-eventExecutorLoop-1-1]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was /8.130.77.18:7001
+2023-03-15-17:36:16.320 INFO [lettuce-nioEventLoop-7-5]-io.lettuce.core.protocol.ReconnectionHandler:174>>Reconnected to 8.130.77.18:7001
+2023-03-15-17:39:00.009 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60004
+2023-03-15-17:39:00.010 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 80903
+2023-03-15-17:39:00.011 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 150224
+2023-03-15-17:39:18.829 INFO [SpringApplicationShutdownHook]-org.quartz.core.QuartzScheduler:585>>Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-03-15-17:39:19.011 INFO [SpringApplicationShutdownHook]-org.springframework.scheduling.quartz.SchedulerFactoryBean:847>>Shutting down Quartz Scheduler
+2023-03-15-17:39:19.011 INFO [SpringApplicationShutdownHook]-org.quartz.core.QuartzScheduler:666>>Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-03-15-17:39:19.011 INFO [SpringApplicationShutdownHook]-org.quartz.core.QuartzScheduler:585>>Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-03-15-17:39:19.011 INFO [SpringApplicationShutdownHook]-org.quartz.core.QuartzScheduler:740>>Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-03-15-17:39:21.043 ERROR [redisson-netty-4-26]-io.netty.util.concurrent.DefaultPromise:843>>Failed to submit a listener notification task. Event loop shut down?
+java.util.concurrent.RejectedExecutionException: event executor terminated
+	at io.netty.util.concurrent.SingleThreadEventExecutor.reject(SingleThreadEventExecutor.java:934)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.offerTask(SingleThreadEventExecutor.java:351)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.addTask(SingleThreadEventExecutor.java:344)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:836)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute0(SingleThreadEventExecutor.java:827)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:817)
+	at io.netty.util.concurrent.DefaultPromise.safeExecute(DefaultPromise.java:841)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:499)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605)
+	at io.netty.util.concurrent.DefaultPromise.setSuccess(DefaultPromise.java:96)
+	at io.netty.channel.group.DefaultChannelGroupFuture.setSuccess0(DefaultChannelGroupFuture.java:200)
+	at io.netty.channel.group.DefaultChannelGroupFuture.access$400(DefaultChannelGroupFuture.java:41)
+	at io.netty.channel.group.DefaultChannelGroupFuture$1.operationComplete(DefaultChannelGroupFuture.java:75)
+	at io.netty.channel.group.DefaultChannelGroupFuture$1.operationComplete(DefaultChannelGroupFuture.java:48)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605)
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104)
+	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.netty.channel.AbstractChannel$CloseFuture.setClosed(AbstractChannel.java:1164)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:755)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:731)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.netty.channel.nio.NioEventLoop.closeAll(NioEventLoop.java:838)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:595)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+2023-03-15-17:39:21.060 INFO [SpringApplicationShutdownHook]-com.alibaba.druid.pool.DruidDataSource:2071>>{dataSource-1} closing ...
+2023-03-15-17:39:21.063 INFO [SpringApplicationShutdownHook]-com.alibaba.druid.pool.DruidDataSource:2144>>{dataSource-1} closed

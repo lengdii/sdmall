@@ -1,0 +1,223 @@
+2023-03-06-22:00:31.476 INFO [SpringApplicationShutdownHook]-org.quartz.core.QuartzScheduler:585>>Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-03-06-22:00:31.755 INFO [SpringApplicationShutdownHook]-org.springframework.scheduling.quartz.SchedulerFactoryBean:847>>Shutting down Quartz Scheduler
+2023-03-06-22:00:31.756 INFO [SpringApplicationShutdownHook]-org.quartz.core.QuartzScheduler:666>>Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-03-06-22:00:31.756 INFO [SpringApplicationShutdownHook]-org.quartz.core.QuartzScheduler:585>>Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-03-06-22:00:31.756 INFO [SpringApplicationShutdownHook]-org.quartz.core.QuartzScheduler:740>>Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-03-06-22:00:31.888 INFO [SpringApplicationShutdownHook]-com.alibaba.druid.pool.DruidDataSource:2071>>{dataSource-1} closing ...
+2023-03-06-22:00:31.893 INFO [SpringApplicationShutdownHook]-com.alibaba.druid.pool.DruidDataSource:2144>>{dataSource-1} closed
+2023-03-06-22:00:38.360 INFO [main]-org.springframework.boot.StartupInfoLogger:55>>Starting ApiApplication using Java 1.8.0_241 on Lengdi with PID 264 (D:\JavaWork\sdmall\api\target\classes started by 冷帝7 in D:\JavaWork\sdmall)
+2023-03-06-22:00:38.363 INFO [main]-org.springframework.boot.SpringApplication:634>>No active profile set, falling back to 1 default profile: "default"
+2023-03-06-22:00:39.421 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:262>>Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-06-22:00:39.423 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:132>>Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-06-22:00:39.460 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:201>>Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+2023-03-06-22:00:39.593 WARN [main]-org.mybatis.logging.Logger:44>>No MyBatis mapper was found in '[com.lengdi]' package. Please check your configuration.
+2023-03-06-22:00:40.024 INFO [main]-org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108>>Tomcat initialized with port(s): 8080 (http)
+2023-03-06-22:00:40.031 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-06-22:00:40.032 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting service [Tomcat]
+2023-03-06-22:00:40.032 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-03-06-22:00:40.221 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring embedded WebApplicationContext
+2023-03-06-22:00:40.221 INFO [main]-org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:292>>Root WebApplicationContext: initialization completed in 1803 ms
+2023-03-06-22:00:40.303 INFO [main]-com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56>>Init DruidDataSource
+2023-03-06-22:00:40.413 INFO [main]-com.alibaba.druid.pool.DruidDataSource:998>>{dataSource-1} inited
+2023-03-06-22:00:41.861 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:60>>Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2023-03-06-22:00:41.862 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:60>>Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2023-03-06-22:00:41.862 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:60>>Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2023-03-06-22:00:41.862 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:83>>Clear EntityHelper entityTableMap cache.
+2023-03-06-22:00:41.992 INFO [main]-org.quartz.impl.StdSchedulerFactory:1220>>Using default implementation for ThreadExecutor
+2023-03-06-22:00:42.001 INFO [main]-org.quartz.core.SchedulerSignalerImpl:61>>Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-03-06-22:00:42.002 INFO [main]-org.quartz.core.QuartzScheduler:229>>Quartz Scheduler v.2.3.2 created.
+2023-03-06-22:00:42.003 INFO [main]-org.quartz.simpl.RAMJobStore:155>>RAMJobStore initialized.
+2023-03-06-22:00:42.004 INFO [main]-org.quartz.core.QuartzScheduler:294>>Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-03-06-22:00:42.004 INFO [main]-org.quartz.impl.StdSchedulerFactory:1374>>Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-03-06-22:00:42.004 INFO [main]-org.quartz.impl.StdSchedulerFactory:1378>>Quartz scheduler version: 2.3.2
+2023-03-06-22:00:42.004 INFO [main]-org.quartz.core.QuartzScheduler:2293>>JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6866e740
+2023-03-06-22:00:42.067 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting ProtocolHandler ["http-nio-8080"]
+2023-03-06-22:00:42.087 INFO [main]-org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220>>Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-06-22:00:42.301 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-06-22:00:42.306 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-06-22:00:42.307 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:00:42.307 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:00:42.323 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-06-22:00:42.328 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:00:42.328 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:00:42.335 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:00:42.335 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:00:42.338 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-06-22:00:42.339 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:00:42.339 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:00:42.349 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:00:42.352 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2023-03-06-22:00:42.358 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:00:42.363 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-06-22:00:42.363 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-06-22:00:42.370 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-06-22:00:42.371 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-06-22:00:42.380 INFO [main]-org.springframework.scheduling.quartz.SchedulerFactoryBean:729>>Starting Quartz Scheduler now
+2023-03-06-22:00:42.380 INFO [main]-org.quartz.core.QuartzScheduler:547>>Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-03-06-22:00:42.410 INFO [main]-org.springframework.boot.StartupInfoLogger:61>>Started ApiApplication in 4.71 seconds (JVM running for 5.994)
+2023-03-06-22:01:07.586 INFO [http-nio-8080-exec-1]-org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-06-22:01:07.586 INFO [http-nio-8080-exec-1]-org.springframework.web.servlet.FrameworkServlet:525>>Initializing Servlet 'dispatcherServlet'
+2023-03-06-22:01:07.587 INFO [http-nio-8080-exec-1]-org.springframework.web.servlet.FrameworkServlet:547>>Completed initialization in 1 ms
+2023-03-06-22:01:08.341 INFO [http-nio-8080-exec-1]-com.lengdi.controller.UserController:43>>eyJhbGciOiJIUzI1NiJ9.eyJrZXkxIjoidmFsdWUxIiwia2V5MiI6InZhbHVlMiIsImV4cCI6MTY3ODE5NzY2N30.8Nigqn3L3c9Or2_QSGbXWZhKmnZCxpFmI3SJfzkLt-E
+2023-03-06-22:05:00.029 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60007
+2023-03-06-22:08:00.017 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60005
+2023-03-06-22:10:00.014 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60007
+2023-03-06-22:13:00.018 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60008
+2023-03-06-22:15:00.018 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60000
+2023-03-06-22:18:00.010 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60003
+2023-03-06-22:19:54.934 INFO [lettuce-eventExecutorLoop-1-3]-io.netty.util.internal.logging.AbstractInternalLogger:171>>Reconnecting, last destination was /8.130.77.18:6379
+2023-03-06-22:19:55.079 INFO [lettuce-nioEventLoop-4-2]-io.lettuce.core.protocol.ReconnectionHandler:174>>Reconnected to 8.130.77.18:6379
+2023-03-06-22:21:42.866 INFO [SpringApplicationShutdownHook]-org.quartz.core.QuartzScheduler:585>>Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-03-06-22:21:43.012 INFO [SpringApplicationShutdownHook]-org.springframework.scheduling.quartz.SchedulerFactoryBean:847>>Shutting down Quartz Scheduler
+2023-03-06-22:21:43.012 INFO [SpringApplicationShutdownHook]-org.quartz.core.QuartzScheduler:666>>Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-03-06-22:21:43.012 INFO [SpringApplicationShutdownHook]-org.quartz.core.QuartzScheduler:585>>Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-03-06-22:21:43.013 INFO [SpringApplicationShutdownHook]-org.quartz.core.QuartzScheduler:740>>Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-03-06-22:21:43.150 INFO [SpringApplicationShutdownHook]-com.alibaba.druid.pool.DruidDataSource:2071>>{dataSource-1} closing ...
+2023-03-06-22:21:43.153 INFO [SpringApplicationShutdownHook]-com.alibaba.druid.pool.DruidDataSource:2144>>{dataSource-1} closed
+2023-03-06-22:21:50.651 INFO [main]-org.springframework.boot.StartupInfoLogger:55>>Starting ApiApplication using Java 1.8.0_241 on Lengdi with PID 1908 (D:\JavaWork\sdmall\api\target\classes started by 冷帝7 in D:\JavaWork\sdmall)
+2023-03-06-22:21:50.656 INFO [main]-org.springframework.boot.SpringApplication:634>>No active profile set, falling back to 1 default profile: "default"
+2023-03-06-22:21:52.403 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:262>>Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-06-22:21:52.403 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:132>>Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-06-22:21:52.460 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:201>>Finished Spring Data repository scanning in 33 ms. Found 0 Redis repository interfaces.
+2023-03-06-22:21:52.611 WARN [main]-org.mybatis.logging.Logger:44>>No MyBatis mapper was found in '[com.lengdi]' package. Please check your configuration.
+2023-03-06-22:21:53.404 INFO [main]-org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108>>Tomcat initialized with port(s): 8080 (http)
+2023-03-06-22:21:53.421 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-06-22:21:53.422 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting service [Tomcat]
+2023-03-06-22:21:53.423 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-03-06-22:21:53.722 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring embedded WebApplicationContext
+2023-03-06-22:21:53.723 INFO [main]-org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:292>>Root WebApplicationContext: initialization completed in 2990 ms
+2023-03-06-22:21:54.119 INFO [main]-com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56>>Init DruidDataSource
+2023-03-06-22:21:54.259 INFO [main]-com.alibaba.druid.pool.DruidDataSource:998>>{dataSource-1} inited
+2023-03-06-22:21:56.108 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:60>>Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2023-03-06-22:21:56.112 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:60>>Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2023-03-06-22:21:56.114 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:60>>Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2023-03-06-22:21:56.114 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:83>>Clear EntityHelper entityTableMap cache.
+2023-03-06-22:21:56.321 INFO [main]-org.quartz.impl.StdSchedulerFactory:1220>>Using default implementation for ThreadExecutor
+2023-03-06-22:21:56.331 INFO [main]-org.quartz.core.SchedulerSignalerImpl:61>>Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-03-06-22:21:56.331 INFO [main]-org.quartz.core.QuartzScheduler:229>>Quartz Scheduler v.2.3.2 created.
+2023-03-06-22:21:56.336 INFO [main]-org.quartz.simpl.RAMJobStore:155>>RAMJobStore initialized.
+2023-03-06-22:21:56.337 INFO [main]-org.quartz.core.QuartzScheduler:294>>Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-03-06-22:21:56.337 INFO [main]-org.quartz.impl.StdSchedulerFactory:1374>>Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-03-06-22:21:56.337 INFO [main]-org.quartz.impl.StdSchedulerFactory:1378>>Quartz scheduler version: 2.3.2
+2023-03-06-22:21:56.338 INFO [main]-org.quartz.core.QuartzScheduler:2293>>JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4adcc981
+2023-03-06-22:21:56.432 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting ProtocolHandler ["http-nio-8080"]
+2023-03-06-22:21:56.458 INFO [main]-org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220>>Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-06-22:21:56.750 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-06-22:21:56.756 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-06-22:21:56.756 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:21:56.757 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:21:56.772 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-06-22:21:56.781 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:21:56.781 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:21:56.794 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:21:56.795 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:21:56.799 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-06-22:21:56.799 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:21:56.800 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:21:56.811 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:21:56.816 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2023-03-06-22:21:56.825 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:21:56.831 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-06-22:21:56.831 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-06-22:21:56.841 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-06-22:21:56.841 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-06-22:21:56.851 INFO [main]-org.springframework.scheduling.quartz.SchedulerFactoryBean:729>>Starting Quartz Scheduler now
+2023-03-06-22:21:56.851 INFO [main]-org.quartz.core.QuartzScheduler:547>>Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-03-06-22:21:56.869 INFO [main]-org.springframework.boot.StartupInfoLogger:61>>Started ApiApplication in 7.107 seconds (JVM running for 9.729)
+2023-03-06-22:22:54.415 INFO [http-nio-8080-exec-2]-org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-06-22:22:54.415 INFO [http-nio-8080-exec-2]-org.springframework.web.servlet.FrameworkServlet:525>>Initializing Servlet 'dispatcherServlet'
+2023-03-06-22:22:54.417 INFO [http-nio-8080-exec-2]-org.springframework.web.servlet.FrameworkServlet:547>>Completed initialization in 2 ms
+2023-03-06-22:25:00.017 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60005
+2023-03-06-22:25:00.018 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 125528
+2023-03-06-22:25:56.746 INFO [SpringApplicationShutdownHook]-org.quartz.core.QuartzScheduler:585>>Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-03-06-22:25:56.893 INFO [SpringApplicationShutdownHook]-org.springframework.scheduling.quartz.SchedulerFactoryBean:847>>Shutting down Quartz Scheduler
+2023-03-06-22:25:56.893 INFO [SpringApplicationShutdownHook]-org.quartz.core.QuartzScheduler:666>>Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-03-06-22:25:56.893 INFO [SpringApplicationShutdownHook]-org.quartz.core.QuartzScheduler:585>>Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-03-06-22:25:56.893 INFO [SpringApplicationShutdownHook]-org.quartz.core.QuartzScheduler:740>>Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-03-06-22:25:56.897 INFO [SpringApplicationShutdownHook]-com.alibaba.druid.pool.DruidDataSource:2071>>{dataSource-1} closing ...
+2023-03-06-22:25:56.900 INFO [SpringApplicationShutdownHook]-com.alibaba.druid.pool.DruidDataSource:2144>>{dataSource-1} closed
+2023-03-06-22:26:06.836 INFO [main]-org.springframework.boot.StartupInfoLogger:55>>Starting ApiApplication using Java 1.8.0_241 on Lengdi with PID 9756 (D:\JavaWork\sdmall\api\target\classes started by 冷帝7 in D:\JavaWork\sdmall)
+2023-03-06-22:26:06.844 INFO [main]-org.springframework.boot.SpringApplication:634>>No active profile set, falling back to 1 default profile: "default"
+2023-03-06-22:26:09.170 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:262>>Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-06-22:26:09.170 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:132>>Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-06-22:26:09.243 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:201>>Finished Spring Data repository scanning in 43 ms. Found 0 Redis repository interfaces.
+2023-03-06-22:26:09.450 WARN [main]-org.mybatis.logging.Logger:44>>No MyBatis mapper was found in '[com.lengdi]' package. Please check your configuration.
+2023-03-06-22:26:10.090 INFO [main]-org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108>>Tomcat initialized with port(s): 8080 (http)
+2023-03-06-22:26:10.113 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-06-22:26:10.114 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting service [Tomcat]
+2023-03-06-22:26:10.114 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-03-06-22:26:10.401 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring embedded WebApplicationContext
+2023-03-06-22:26:10.401 INFO [main]-org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:292>>Root WebApplicationContext: initialization completed in 3436 ms
+2023-03-06-22:26:11.217 INFO [main]-com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56>>Init DruidDataSource
+2023-03-06-22:26:11.440 INFO [main]-com.alibaba.druid.pool.DruidDataSource:998>>{dataSource-1} inited
+2023-03-06-22:26:13.967 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:60>>Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2023-03-06-22:26:13.968 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:60>>Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2023-03-06-22:26:13.969 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:60>>Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2023-03-06-22:26:13.969 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:83>>Clear EntityHelper entityTableMap cache.
+2023-03-06-22:26:14.169 INFO [main]-org.quartz.impl.StdSchedulerFactory:1220>>Using default implementation for ThreadExecutor
+2023-03-06-22:26:14.180 INFO [main]-org.quartz.core.SchedulerSignalerImpl:61>>Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-03-06-22:26:14.185 INFO [main]-org.quartz.core.QuartzScheduler:229>>Quartz Scheduler v.2.3.2 created.
+2023-03-06-22:26:14.186 INFO [main]-org.quartz.simpl.RAMJobStore:155>>RAMJobStore initialized.
+2023-03-06-22:26:14.186 INFO [main]-org.quartz.core.QuartzScheduler:294>>Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-03-06-22:26:14.186 INFO [main]-org.quartz.impl.StdSchedulerFactory:1374>>Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-03-06-22:26:14.186 INFO [main]-org.quartz.impl.StdSchedulerFactory:1378>>Quartz scheduler version: 2.3.2
+2023-03-06-22:26:14.186 INFO [main]-org.quartz.core.QuartzScheduler:2293>>JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2cd5b19c
+2023-03-06-22:26:14.283 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting ProtocolHandler ["http-nio-8080"]
+2023-03-06-22:26:14.311 INFO [main]-org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220>>Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-06-22:26:14.642 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-06-22:26:14.649 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-06-22:26:14.649 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:26:14.650 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:26:14.681 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-06-22:26:14.690 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:26:14.690 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:26:14.705 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:26:14.706 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:26:14.726 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-06-22:26:14.727 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:26:14.728 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:26:14.778 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:26:14.785 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2023-03-06-22:26:14.797 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-06-22:26:14.828 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-06-22:26:14.837 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-06-22:26:14.849 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-06-22:26:14.850 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-06-22:26:14.865 INFO [main]-org.springframework.scheduling.quartz.SchedulerFactoryBean:729>>Starting Quartz Scheduler now
+2023-03-06-22:26:14.866 INFO [main]-org.quartz.core.QuartzScheduler:547>>Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-03-06-22:26:14.903 INFO [main]-org.springframework.boot.StartupInfoLogger:61>>Started ApiApplication in 9.722 seconds (JVM running for 12.805)
+2023-03-06-22:31:21.639 INFO [http-nio-8080-exec-1]-org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-06-22:31:21.639 INFO [http-nio-8080-exec-1]-org.springframework.web.servlet.FrameworkServlet:525>>Initializing Servlet 'dispatcherServlet'
+2023-03-06-22:31:21.640 INFO [http-nio-8080-exec-1]-org.springframework.web.servlet.FrameworkServlet:547>>Completed initialization in 1 ms
+2023-03-06-22:31:48.868 INFO [http-nio-8080-exec-3]-com.lengdi.controller.UserController:43>>eyJhbGciOiJIUzI1NiJ9.eyJrZXkxIjoidmFsdWUxIiwia2V5MiI6InZhbHVlMiIsImV4cCI6MTY3ODE5OTUwOH0.r4h5MHKvXthF7yJT99L6aBHEg4iKa_yemGG-VQGNClk
+2023-03-06-22:34:00.021 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60006
+2023-03-06-22:34:00.022 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 145692
+2023-03-06-22:37:00.016 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60010
+2023-03-06-22:39:00.012 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60005
+2023-03-06-22:42:00.022 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60015
+2023-03-06-22:45:00.015 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60010
+2023-03-06-22:48:00.018 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60009
+2023-03-06-22:51:00.016 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60006
+2023-03-06-22:53:00.012 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60007
+2023-03-06-22:55:00.013 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60007

@@ -1,0 +1,395 @@
+2023-03-15-16:31:16.959 INFO [main]-org.springframework.boot.StartupInfoLogger:55>>Starting ApiApplication using Java 1.8.0_241 on Lengdi with PID 2840 (D:\JavaWork\sdmall\api\target\classes started by 冷帝7 in D:\JavaWork\sdmall)
+2023-03-15-16:31:16.966 INFO [main]-org.springframework.boot.SpringApplication:634>>No active profile set, falling back to 1 default profile: "default"
+2023-03-15-16:31:18.471 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:262>>Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-15-16:31:18.473 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:132>>Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2023-03-15-16:31:18.508 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:201>>Finished Spring Data repository scanning in 29 ms. Found 0 Elasticsearch repository interfaces.
+2023-03-15-16:31:18.511 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:262>>Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-15-16:31:18.512 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:132>>Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2023-03-15-16:31:18.520 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:201>>Finished Spring Data repository scanning in 7 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2023-03-15-16:31:18.537 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:262>>Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-15-16:31:18.538 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:132>>Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-15-16:31:18.560 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:201>>Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2023-03-15-16:31:18.720 WARN [main]-org.mybatis.logging.Logger:44>>No MyBatis mapper was found in '[com.lengdi]' package. Please check your configuration.
+2023-03-15-16:31:19.313 INFO [main]-org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108>>Tomcat initialized with port(s): 8080 (http)
+2023-03-15-16:31:19.326 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-15-16:31:19.326 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting service [Tomcat]
+2023-03-15-16:31:19.327 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-03-15-16:31:19.591 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring embedded WebApplicationContext
+2023-03-15-16:31:19.591 INFO [main]-org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:292>>Root WebApplicationContext: initialization completed in 2499 ms
+2023-03-15-16:31:20.338 INFO [main]-com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56>>Init DruidDataSource
+2023-03-15-16:31:20.479 INFO [main]-com.alibaba.druid.pool.DruidDataSource:998>>{dataSource-1} inited
+2023-03-15-16:31:21.388 INFO [main]-org.redisson.Version:41>>Redisson 3.12.0
+2023-03-15-16:31:21.902 INFO [redisson-netty-4-27]-org.redisson.connection.pool.ConnectionPool$1:168>>1 connections initialized for 8.130.77.18/8.130.77.18:7001
+2023-03-15-16:31:21.905 INFO [redisson-netty-4-19]-org.redisson.connection.pool.ConnectionPool$1:168>>24 connections initialized for 8.130.77.18/8.130.77.18:7001
+2023-03-15-16:31:22.879 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:60>>Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2023-03-15-16:31:22.880 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:60>>Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2023-03-15-16:31:22.881 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:60>>Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2023-03-15-16:31:22.881 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:83>>Clear EntityHelper entityTableMap cache.
+2023-03-15-16:31:23.919 INFO [main]-org.quartz.impl.StdSchedulerFactory:1220>>Using default implementation for ThreadExecutor
+2023-03-15-16:31:23.934 INFO [main]-org.quartz.core.SchedulerSignalerImpl:61>>Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-03-15-16:31:23.934 INFO [main]-org.quartz.core.QuartzScheduler:229>>Quartz Scheduler v.2.3.2 created.
+2023-03-15-16:31:23.935 INFO [main]-org.quartz.simpl.RAMJobStore:155>>RAMJobStore initialized.
+2023-03-15-16:31:23.936 INFO [main]-org.quartz.core.QuartzScheduler:294>>Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-03-15-16:31:23.937 INFO [main]-org.quartz.impl.StdSchedulerFactory:1374>>Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-03-15-16:31:23.937 INFO [main]-org.quartz.impl.StdSchedulerFactory:1378>>Quartz scheduler version: 2.3.2
+2023-03-15-16:31:23.937 INFO [main]-org.quartz.core.QuartzScheduler:2293>>JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6b9fc5c7
+2023-03-15-16:31:24.015 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting ProtocolHandler ["http-nio-8080"]
+2023-03-15-16:31:24.030 INFO [main]-org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220>>Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-15-16:31:24.035 WARN [main]-org.springframework.context.support.AbstractApplicationContext:591>>Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+2023-03-15-16:31:24.035 INFO [main]-org.springframework.scheduling.quartz.SchedulerFactoryBean:847>>Shutting down Quartz Scheduler
+2023-03-15-16:31:24.035 INFO [main]-org.quartz.core.QuartzScheduler:666>>Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-03-15-16:31:24.036 INFO [main]-org.quartz.core.QuartzScheduler:585>>Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-03-15-16:31:24.036 INFO [main]-org.quartz.core.QuartzScheduler:740>>Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-03-15-16:31:24.198 INFO [main]-com.alibaba.druid.pool.DruidDataSource:2071>>{dataSource-1} closing ...
+2023-03-15-16:31:24.199 INFO [main]-com.alibaba.druid.pool.DruidDataSource:2144>>{dataSource-1} closed
+2023-03-15-16:31:24.363 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Pausing ProtocolHandler ["http-nio-8080"]
+2023-03-15-16:31:24.363 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Stopping service [Tomcat]
+2023-03-15-16:31:24.367 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Stopping ProtocolHandler ["http-nio-8080"]
+2023-03-15-16:31:24.370 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Destroying ProtocolHandler ["http-nio-8080"]
+2023-03-15-16:31:24.381 INFO [main]-org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:136>>
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-15-16:31:24.426 ERROR [main]-org.springframework.boot.SpringApplication:824>>Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.lengdi.ApiApplication.main(ApiApplication.java:16)
+Caused by: java.lang.NullPointerException: null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56)
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113)
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89)
+	at java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:469)
+	at java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.util.TimSort.sort(TimSort.java:220)
+	at java.util.Arrays.sort(Arrays.java:1512)
+	at java.util.ArrayList.sort(ArrayList.java:1462)
+	at java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:387)
+	at java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:483)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 14 common frames omitted
+2023-03-15-16:39:27.850 INFO [main]-org.springframework.boot.StartupInfoLogger:55>>Starting ApiApplication using Java 1.8.0_241 on Lengdi with PID 17376 (D:\JavaWork\sdmall\api\target\classes started by 冷帝7 in D:\JavaWork\sdmall)
+2023-03-15-16:39:27.854 INFO [main]-org.springframework.boot.SpringApplication:634>>No active profile set, falling back to 1 default profile: "default"
+2023-03-15-16:39:29.028 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:262>>Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-15-16:39:29.029 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:132>>Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2023-03-15-16:39:29.059 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:201>>Finished Spring Data repository scanning in 26 ms. Found 0 Elasticsearch repository interfaces.
+2023-03-15-16:39:29.062 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:262>>Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-15-16:39:29.063 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:132>>Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2023-03-15-16:39:29.069 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:201>>Finished Spring Data repository scanning in 6 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2023-03-15-16:39:29.081 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:262>>Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-15-16:39:29.082 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:132>>Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-15-16:39:29.104 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:201>>Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-03-15-16:39:29.226 WARN [main]-org.mybatis.logging.Logger:44>>No MyBatis mapper was found in '[com.lengdi]' package. Please check your configuration.
+2023-03-15-16:39:29.673 INFO [main]-org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108>>Tomcat initialized with port(s): 8080 (http)
+2023-03-15-16:39:29.682 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-15-16:39:29.683 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting service [Tomcat]
+2023-03-15-16:39:29.683 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-03-15-16:39:29.888 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring embedded WebApplicationContext
+2023-03-15-16:39:29.889 INFO [main]-org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:292>>Root WebApplicationContext: initialization completed in 1944 ms
+2023-03-15-16:39:30.486 INFO [main]-com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56>>Init DruidDataSource
+2023-03-15-16:39:30.601 INFO [main]-com.alibaba.druid.pool.DruidDataSource:998>>{dataSource-1} inited
+2023-03-15-16:39:31.386 INFO [main]-org.redisson.Version:41>>Redisson 3.12.0
+2023-03-15-16:39:31.796 INFO [redisson-netty-4-29]-org.redisson.connection.pool.ConnectionPool$1:168>>1 connections initialized for 8.130.77.18/8.130.77.18:7001
+2023-03-15-16:39:31.820 INFO [redisson-netty-4-19]-org.redisson.connection.pool.ConnectionPool$1:168>>24 connections initialized for 8.130.77.18/8.130.77.18:7001
+2023-03-15-16:39:32.549 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:60>>Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2023-03-15-16:39:32.549 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:60>>Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2023-03-15-16:39:32.550 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:60>>Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2023-03-15-16:39:32.550 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:83>>Clear EntityHelper entityTableMap cache.
+2023-03-15-16:39:33.324 INFO [main]-org.quartz.impl.StdSchedulerFactory:1220>>Using default implementation for ThreadExecutor
+2023-03-15-16:39:33.332 INFO [main]-org.quartz.core.SchedulerSignalerImpl:61>>Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-03-15-16:39:33.333 INFO [main]-org.quartz.core.QuartzScheduler:229>>Quartz Scheduler v.2.3.2 created.
+2023-03-15-16:39:33.334 INFO [main]-org.quartz.simpl.RAMJobStore:155>>RAMJobStore initialized.
+2023-03-15-16:39:33.334 INFO [main]-org.quartz.core.QuartzScheduler:294>>Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-03-15-16:39:33.334 INFO [main]-org.quartz.impl.StdSchedulerFactory:1374>>Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-03-15-16:39:33.335 INFO [main]-org.quartz.impl.StdSchedulerFactory:1378>>Quartz scheduler version: 2.3.2
+2023-03-15-16:39:33.335 INFO [main]-org.quartz.core.QuartzScheduler:2293>>JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@feab3ae
+2023-03-15-16:39:33.398 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting ProtocolHandler ["http-nio-8080"]
+2023-03-15-16:39:33.410 INFO [main]-org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220>>Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-15-16:39:33.413 WARN [main]-org.springframework.context.support.AbstractApplicationContext:591>>Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+2023-03-15-16:39:33.413 INFO [main]-org.springframework.scheduling.quartz.SchedulerFactoryBean:847>>Shutting down Quartz Scheduler
+2023-03-15-16:39:33.413 INFO [main]-org.quartz.core.QuartzScheduler:666>>Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-03-15-16:39:33.413 INFO [main]-org.quartz.core.QuartzScheduler:585>>Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-03-15-16:39:33.414 INFO [main]-org.quartz.core.QuartzScheduler:740>>Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-03-15-16:39:33.565 INFO [main]-com.alibaba.druid.pool.DruidDataSource:2071>>{dataSource-1} closing ...
+2023-03-15-16:39:33.567 INFO [main]-com.alibaba.druid.pool.DruidDataSource:2144>>{dataSource-1} closed
+2023-03-15-16:39:33.701 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Pausing ProtocolHandler ["http-nio-8080"]
+2023-03-15-16:39:33.701 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Stopping service [Tomcat]
+2023-03-15-16:39:33.705 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Stopping ProtocolHandler ["http-nio-8080"]
+2023-03-15-16:39:33.708 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Destroying ProtocolHandler ["http-nio-8080"]
+2023-03-15-16:39:33.715 INFO [main]-org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:136>>
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-15-16:39:33.744 ERROR [main]-org.springframework.boot.SpringApplication:824>>Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.lengdi.ApiApplication.main(ApiApplication.java:15)
+Caused by: java.lang.NullPointerException: null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56)
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113)
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89)
+	at java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:469)
+	at java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.util.TimSort.sort(TimSort.java:220)
+	at java.util.Arrays.sort(Arrays.java:1512)
+	at java.util.ArrayList.sort(ArrayList.java:1462)
+	at java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:387)
+	at java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:483)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 14 common frames omitted
+2023-03-15-16:48:43.006 INFO [main]-org.springframework.boot.StartupInfoLogger:55>>Starting ApiApplication using Java 1.8.0_241 on Lengdi with PID 7516 (D:\JavaWork\sdmall\api\target\classes started by 冷帝7 in D:\JavaWork\sdmall)
+2023-03-15-16:48:43.012 INFO [main]-org.springframework.boot.SpringApplication:634>>No active profile set, falling back to 1 default profile: "default"
+2023-03-15-16:48:44.432 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:262>>Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-15-16:48:44.433 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:132>>Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2023-03-15-16:48:44.465 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:201>>Finished Spring Data repository scanning in 26 ms. Found 0 Elasticsearch repository interfaces.
+2023-03-15-16:48:44.469 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:262>>Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-15-16:48:44.469 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:132>>Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2023-03-15-16:48:44.475 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:201>>Finished Spring Data repository scanning in 6 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2023-03-15-16:48:44.488 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:262>>Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-15-16:48:44.489 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:132>>Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-15-16:48:44.509 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:201>>Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2023-03-15-16:48:44.639 WARN [main]-org.mybatis.logging.Logger:44>>No MyBatis mapper was found in '[com.lengdi]' package. Please check your configuration.
+2023-03-15-16:48:45.102 INFO [main]-org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108>>Tomcat initialized with port(s): 8080 (http)
+2023-03-15-16:48:45.111 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-15-16:48:45.112 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting service [Tomcat]
+2023-03-15-16:48:45.113 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-03-15-16:48:45.336 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring embedded WebApplicationContext
+2023-03-15-16:48:45.337 INFO [main]-org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:292>>Root WebApplicationContext: initialization completed in 2188 ms
+2023-03-15-16:48:45.985 INFO [main]-com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56>>Init DruidDataSource
+2023-03-15-16:48:46.134 INFO [main]-com.alibaba.druid.pool.DruidDataSource:998>>{dataSource-1} inited
+2023-03-15-16:48:46.929 INFO [main]-org.redisson.Version:41>>Redisson 3.12.0
+2023-03-15-16:48:47.431 INFO [redisson-netty-4-27]-org.redisson.connection.pool.ConnectionPool$1:168>>1 connections initialized for 8.130.77.18/8.130.77.18:7001
+2023-03-15-16:48:47.453 INFO [redisson-netty-4-30]-org.redisson.connection.pool.ConnectionPool$1:168>>24 connections initialized for 8.130.77.18/8.130.77.18:7001
+2023-03-15-16:48:48.214 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:60>>Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2023-03-15-16:48:48.214 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:60>>Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2023-03-15-16:48:48.215 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:60>>Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2023-03-15-16:48:48.215 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:83>>Clear EntityHelper entityTableMap cache.
+2023-03-15-16:48:49.018 INFO [main]-org.quartz.impl.StdSchedulerFactory:1220>>Using default implementation for ThreadExecutor
+2023-03-15-16:48:49.027 INFO [main]-org.quartz.core.SchedulerSignalerImpl:61>>Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-03-15-16:48:49.027 INFO [main]-org.quartz.core.QuartzScheduler:229>>Quartz Scheduler v.2.3.2 created.
+2023-03-15-16:48:49.028 INFO [main]-org.quartz.simpl.RAMJobStore:155>>RAMJobStore initialized.
+2023-03-15-16:48:49.028 INFO [main]-org.quartz.core.QuartzScheduler:294>>Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-03-15-16:48:49.028 INFO [main]-org.quartz.impl.StdSchedulerFactory:1374>>Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-03-15-16:48:49.029 INFO [main]-org.quartz.impl.StdSchedulerFactory:1378>>Quartz scheduler version: 2.3.2
+2023-03-15-16:48:49.029 INFO [main]-org.quartz.core.QuartzScheduler:2293>>JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@445b4594
+2023-03-15-16:48:49.102 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting ProtocolHandler ["http-nio-8080"]
+2023-03-15-16:48:49.115 INFO [main]-org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220>>Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-15-16:48:49.122 WARN [main]-org.springframework.context.support.AbstractApplicationContext:591>>Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+2023-03-15-16:48:49.122 INFO [main]-org.springframework.scheduling.quartz.SchedulerFactoryBean:847>>Shutting down Quartz Scheduler
+2023-03-15-16:48:49.122 INFO [main]-org.quartz.core.QuartzScheduler:666>>Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-03-15-16:48:49.122 INFO [main]-org.quartz.core.QuartzScheduler:585>>Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-03-15-16:48:49.123 INFO [main]-org.quartz.core.QuartzScheduler:740>>Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-03-15-16:48:49.207 INFO [main]-com.alibaba.druid.pool.DruidDataSource:2071>>{dataSource-1} closing ...
+2023-03-15-16:48:49.208 INFO [main]-com.alibaba.druid.pool.DruidDataSource:2144>>{dataSource-1} closed
+2023-03-15-16:48:49.346 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Pausing ProtocolHandler ["http-nio-8080"]
+2023-03-15-16:48:49.346 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Stopping service [Tomcat]
+2023-03-15-16:48:49.350 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Stopping ProtocolHandler ["http-nio-8080"]
+2023-03-15-16:48:49.352 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Destroying ProtocolHandler ["http-nio-8080"]
+2023-03-15-16:48:49.360 INFO [main]-org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:136>>
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-15-16:48:49.389 ERROR [main]-org.springframework.boot.SpringApplication:824>>Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.lengdi.ApiApplication.main(ApiApplication.java:15)
+Caused by: java.lang.NullPointerException: null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56)
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113)
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89)
+	at java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:469)
+	at java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.util.TimSort.sort(TimSort.java:220)
+	at java.util.Arrays.sort(Arrays.java:1512)
+	at java.util.ArrayList.sort(ArrayList.java:1462)
+	at java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:387)
+	at java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:483)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 14 common frames omitted
+2023-03-15-16:51:44.637 INFO [main]-org.springframework.boot.StartupInfoLogger:55>>Starting ApiApplication using Java 1.8.0_241 on Lengdi with PID 2688 (D:\JavaWork\sdmall\api\target\classes started by 冷帝7 in D:\JavaWork\sdmall)
+2023-03-15-16:51:44.641 INFO [main]-org.springframework.boot.SpringApplication:634>>No active profile set, falling back to 1 default profile: "default"
+2023-03-15-16:51:45.746 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:262>>Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-15-16:51:45.747 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:132>>Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2023-03-15-16:51:45.777 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:201>>Finished Spring Data repository scanning in 25 ms. Found 0 Elasticsearch repository interfaces.
+2023-03-15-16:51:45.781 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:262>>Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-15-16:51:45.781 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:132>>Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2023-03-15-16:51:45.788 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:201>>Finished Spring Data repository scanning in 6 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2023-03-15-16:51:45.802 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:262>>Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-15-16:51:45.803 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:132>>Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-15-16:51:45.822 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:201>>Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2023-03-15-16:51:45.948 WARN [main]-org.mybatis.logging.Logger:44>>No MyBatis mapper was found in '[com.lengdi]' package. Please check your configuration.
+2023-03-15-16:51:46.390 INFO [main]-org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108>>Tomcat initialized with port(s): 8080 (http)
+2023-03-15-16:51:46.399 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-15-16:51:46.399 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting service [Tomcat]
+2023-03-15-16:51:46.399 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-03-15-16:51:46.613 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring embedded WebApplicationContext
+2023-03-15-16:51:46.613 INFO [main]-org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:292>>Root WebApplicationContext: initialization completed in 1860 ms
+2023-03-15-16:51:47.225 INFO [main]-com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56>>Init DruidDataSource
+2023-03-15-16:51:47.337 INFO [main]-com.alibaba.druid.pool.DruidDataSource:998>>{dataSource-1} inited
+2023-03-15-16:51:48.107 INFO [main]-org.redisson.Version:41>>Redisson 3.12.0
+2023-03-15-16:51:48.533 INFO [redisson-netty-4-5]-org.redisson.connection.pool.ConnectionPool$1:168>>1 connections initialized for 8.130.77.18/8.130.77.18:7001
+2023-03-15-16:51:48.570 INFO [redisson-netty-4-18]-org.redisson.connection.pool.ConnectionPool$1:168>>24 connections initialized for 8.130.77.18/8.130.77.18:7001
+2023-03-15-16:51:49.300 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:60>>Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2023-03-15-16:51:49.301 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:60>>Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2023-03-15-16:51:49.301 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:60>>Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2023-03-15-16:51:49.302 INFO [main]-tk.mybatis.mapper.autoconfigure.MapperCacheDisabler:83>>Clear EntityHelper entityTableMap cache.
+2023-03-15-16:51:50.133 INFO [main]-org.quartz.impl.StdSchedulerFactory:1220>>Using default implementation for ThreadExecutor
+2023-03-15-16:51:50.142 INFO [main]-org.quartz.core.SchedulerSignalerImpl:61>>Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-03-15-16:51:50.142 INFO [main]-org.quartz.core.QuartzScheduler:229>>Quartz Scheduler v.2.3.2 created.
+2023-03-15-16:51:50.143 INFO [main]-org.quartz.simpl.RAMJobStore:155>>RAMJobStore initialized.
+2023-03-15-16:51:50.144 INFO [main]-org.quartz.core.QuartzScheduler:294>>Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-03-15-16:51:50.144 INFO [main]-org.quartz.impl.StdSchedulerFactory:1374>>Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-03-15-16:51:50.144 INFO [main]-org.quartz.impl.StdSchedulerFactory:1378>>Quartz scheduler version: 2.3.2
+2023-03-15-16:51:50.144 INFO [main]-org.quartz.core.QuartzScheduler:2293>>JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3ace65df
+2023-03-15-16:51:50.208 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting ProtocolHandler ["http-nio-8080"]
+2023-03-15-16:51:50.219 INFO [main]-org.springframework.boot.web.embedded.tomcat.TomcatWebServer:220>>Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-15-16:51:50.427 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-15-16:51:50.430 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-15-16:51:50.431 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-15-16:51:50.431 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-15-16:51:50.445 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-15-16:51:50.449 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-15-16:51:50.450 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-15-16:51:50.456 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-15-16:51:50.457 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-15-16:51:50.459 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-15-16:51:50.460 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-15-16:51:50.460 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-15-16:51:50.468 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-15-16:51:50.471 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2023-03-15-16:51:50.475 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: int, dataTypeClass: class java.lang.Void
+2023-03-15-16:51:50.479 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-15-16:51:50.480 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-15-16:51:50.487 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-15-16:51:50.487 WARN [main]-springfox.documentation.swagger.readers.operation.OperationImplicitParameterReader:170>>Unable to interpret the implicit parameter configuration with dataType: string, dataTypeClass: class java.lang.Void
+2023-03-15-16:51:50.498 INFO [main]-org.springframework.scheduling.quartz.SchedulerFactoryBean:729>>Starting Quartz Scheduler now
+2023-03-15-16:51:50.498 INFO [main]-org.quartz.core.QuartzScheduler:547>>Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-03-15-16:51:50.512 INFO [main]-org.springframework.boot.StartupInfoLogger:61>>Started ApiApplication in 6.646 seconds (JVM running for 7.985)
+2023-03-15-16:54:00.022 WARN [scheduling-1]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 60006
+2023-03-15-16:54:40.731 INFO [http-nio-8080-exec-4]-org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-15-16:54:40.731 INFO [http-nio-8080-exec-4]-org.springframework.web.servlet.FrameworkServlet:525>>Initializing Servlet 'dispatcherServlet'
+2023-03-15-16:54:40.732 INFO [http-nio-8080-exec-4]-org.springframework.web.servlet.FrameworkServlet:547>>Completed initialization in 1 ms
+2023-03-15-16:56:15.074 WARN [http-nio-8080-exec-8]-com.alibaba.druid.pool.DruidAbstractDataSource:1494>>discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8, version : 1.2.8, lastPacketReceivedIdleMillis : 73384

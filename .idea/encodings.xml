@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/api-order-submit/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-user-login/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-user-regist/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/beans/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mapper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-add/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-close/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-querybyid/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-status-update/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-timeout-cancle/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order-timeout-query/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/orderitem-add/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/orderitem-query/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/product-sku-query/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopcart-del/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stock-query/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stock-update/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-check/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-save/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zipkin-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../maven/apache-maven-3.8.4-bin/apache-maven-3.8.4/maven-repo/org/springframework/boot/spring-boot-starter-parent/2.3.11.RELEASE/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../maven/apache-maven-3.8.4-bin/apache-maven-3.8.4/maven-repo/org/springframework/boot/spring-boot-starter-parent/2.7.5/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../maven/apache-maven-3.8.4-bin/apache-maven-3.8.4/maven-repo/org/springframework/boot/spring-boot-starter-parent/3.0.0/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

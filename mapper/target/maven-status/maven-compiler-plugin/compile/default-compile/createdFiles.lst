@@ -1,0 +1,14 @@
+com\lengdi\sdmall\dao\UserLoginHistoryMapper.class
+com\lengdi\sdmall\dao\ProductParamsMapper.class
+com\lengdi\sdmall\dao\ProductSkuMapper.class
+com\lengdi\sdmall\general\GeneralDAO.class
+com\lengdi\sdmall\dao\UserAddrMapper.class
+com\lengdi\sdmall\dao\ProductMapper.class
+com\lengdi\sdmall\dao\ProductCommentsMapper.class
+com\lengdi\sdmall\dao\IndexImgMapper.class
+com\lengdi\sdmall\dao\UsersMapper.class
+com\lengdi\sdmall\dao\OrderItemMapper.class
+com\lengdi\sdmall\dao\CategoryMapper.class
+com\lengdi\sdmall\dao\ProductImgMapper.class
+com\lengdi\sdmall\dao\ShoppingCartMapper.class
+com\lengdi\sdmall\dao\OrdersMapper.class

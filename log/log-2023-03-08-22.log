@@ -1,0 +1,88 @@
+2023-03-08-22:55:01.769 INFO [main]-org.springframework.boot.StartupInfoLogger:55>>Starting ApiApplication using Java 1.8.0_241 on Lengdi with PID 14504 (D:\JavaWork\sdmall\api\target\classes started by 冷帝7 in D:\JavaWork\sdmall)
+2023-03-08-22:55:01.773 INFO [main]-org.springframework.boot.SpringApplication:634>>No active profile set, falling back to 1 default profile: "default"
+2023-03-08-22:55:03.333 WARN [main]-cn.easyes.starter.register.ClassPathMapperScanner:50>>No Easy-Es mapper was found in '[com.xpc.easyes.sample.mapper]' package. Please check your configuration.
+2023-03-08-22:55:03.628 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:262>>Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-08-22:55:03.630 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:132>>Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2023-03-08-22:55:03.668 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:201>>Finished Spring Data repository scanning in 31 ms. Found 0 Elasticsearch repository interfaces.
+2023-03-08-22:55:03.671 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:262>>Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-08-22:55:03.672 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:132>>Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2023-03-08-22:55:03.680 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:201>>Finished Spring Data repository scanning in 7 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2023-03-08-22:55:03.695 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:262>>Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-08-22:55:03.697 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:132>>Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-08-22:55:03.715 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:201>>Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2023-03-08-22:55:03.881 WARN [main]-org.mybatis.logging.Logger:44>>No MyBatis mapper was found in '[com.lengdi]' package. Please check your configuration.
+2023-03-08-22:55:04.435 INFO [main]-org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108>>Tomcat initialized with port(s): 8080 (http)
+2023-03-08-22:55:04.544 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-08-22:55:04.546 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting service [Tomcat]
+2023-03-08-22:55:04.546 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-03-08-22:55:04.916 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring embedded WebApplicationContext
+2023-03-08-22:55:04.917 INFO [main]-org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:292>>Root WebApplicationContext: initialization completed in 3075 ms
+2023-03-08-22:55:06.713 INFO [main]-com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56>>Init DruidDataSource
+2023-03-08-22:55:06.794 WARN [main]-org.springframework.context.support.AbstractApplicationContext:591>>Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'indexController': Unsatisfied dependency expressed through field 'indexImgService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'indexImgServiceImpl': Unsatisfied dependency expressed through field 'indexImgMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'indexImgMapper' defined in file [D:\JavaWork\sdmall\mapper\target\classes\com\lengdi\sdmall\dao\IndexImgMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [tk/mybatis/mapper/autoconfigure/MapperAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2023-03-08-22:55:06.814 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Stopping service [Tomcat]
+2023-03-08-22:55:06.839 INFO [main]-org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:136>>
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-08-22:55:06.876 ERROR [main]-org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:40>>
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2023-03-08-22:56:23.302 INFO [main]-org.springframework.boot.StartupInfoLogger:55>>Starting ApiApplication using Java 1.8.0_241 on Lengdi with PID 11196 (D:\JavaWork\sdmall\api\target\classes started by 冷帝7 in D:\JavaWork\sdmall)
+2023-03-08-22:56:23.304 INFO [main]-org.springframework.boot.SpringApplication:634>>No active profile set, falling back to 1 default profile: "default"
+2023-03-08-22:56:24.094 WARN [main]-cn.easyes.starter.register.ClassPathMapperScanner:50>>No Easy-Es mapper was found in '[com.xpc.easyes.sample.mapper]' package. Please check your configuration.
+2023-03-08-22:56:24.283 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:262>>Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-08-22:56:24.285 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:132>>Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2023-03-08-22:56:24.312 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:201>>Finished Spring Data repository scanning in 24 ms. Found 0 Elasticsearch repository interfaces.
+2023-03-08-22:56:24.316 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:262>>Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-08-22:56:24.316 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:132>>Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2023-03-08-22:56:24.323 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:201>>Finished Spring Data repository scanning in 6 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2023-03-08-22:56:24.334 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:262>>Multiple Spring Data modules found, entering strict repository configuration mode
+2023-03-08-22:56:24.335 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:132>>Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-08-22:56:24.348 INFO [main]-org.springframework.data.repository.config.RepositoryConfigurationDelegate:201>>Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2023-03-08-22:56:24.471 WARN [main]-org.mybatis.logging.Logger:44>>No MyBatis mapper was found in '[com.lengdi]' package. Please check your configuration.
+2023-03-08-22:56:24.866 INFO [main]-org.springframework.boot.web.embedded.tomcat.TomcatWebServer:108>>Tomcat initialized with port(s): 8080 (http)
+2023-03-08-22:56:24.874 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-08-22:56:24.875 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting service [Tomcat]
+2023-03-08-22:56:24.875 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-03-08-22:56:25.073 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring embedded WebApplicationContext
+2023-03-08-22:56:25.073 INFO [main]-org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:292>>Root WebApplicationContext: initialization completed in 1719 ms
+2023-03-08-22:56:25.621 INFO [main]-com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure:56>>Init DruidDataSource
+2023-03-08-22:56:25.668 WARN [main]-org.springframework.context.support.AbstractApplicationContext:591>>Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'indexController': Unsatisfied dependency expressed through field 'indexImgService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'indexImgServiceImpl': Unsatisfied dependency expressed through field 'indexImgMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'indexImgMapper' defined in file [D:\JavaWork\sdmall\mapper\target\classes\com\lengdi\sdmall\dao\IndexImgMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [tk/mybatis/mapper/autoconfigure/MapperAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/alibaba/druid/spring/boot/autoconfigure/DruidDataSourceAutoConfigure.class]: Invocation of init method failed; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2023-03-08-22:56:25.682 INFO [main]-org.apache.juli.logging.DirectJDKLog:173>>Stopping service [Tomcat]
+2023-03-08-22:56:25.701 INFO [main]-org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:136>>
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-08-22:56:25.730 ERROR [main]-org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter:40>>
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+

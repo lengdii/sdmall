@@ -1,0 +1,28 @@
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/sdmall?characterEncoding=utf-8
+      username: root
+      password: abc123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  redis:
+    port: 7001
+    host: 8.130.77.18
+    database: 0
+    password: lengdi123
+mybatis:
+  mapper-locations: classpath:mappers/*Mapper.xml
+  type-aliases-package: com.lengdi.sdmall.entity
+logging:
+  level:
+    io.swagger.models.parameters.AbstractSerializableParameter: error
+redisson:
+  addr:
+    singleAddr:
+      host: redis://8.130.77.18:7001
+      password: lengdi123
+      database: 0
